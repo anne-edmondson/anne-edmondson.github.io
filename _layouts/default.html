@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Reusable head component -->
 {% include head.html %}
 
 <body>
-
+    <!-- Take the contents of _includes/nav.html and insert them here. Reusable nav component. -->
     {% include nav.html %}
 
+    <!-- index.html gets inserted here -->
     {{ content }}
 
+    <!-- Reusable footer component -->
     {% include footer.html %}
 
 </body>

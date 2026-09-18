@@ -1,8 +1,14 @@
+<!-- Jekyll calls this front matter, and it is required.
+ It tells Jekyll to use the page layout for this file. -->
 ---
-layout: page
+layout: page 
 ---
 
+<!-- Loop through each blog post in the paginator object.
+The paginator object is created by Jekyll when you use the jekyll-paginate plugin. -->
 {% for post in paginator.posts %}
+
+<!-- Container for the blog post preview. Displays the blog post preview -->
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">            {{ post.title }}
