@@ -1,20 +1,20 @@
 # Site settings
 author: Anne Edmondson
-title: 5280 Web Dev 
+title: Anne Edmondson
 header-img: img/home-bg.png
 email: edmondson.anne@gmail.com
 copyright_name: Anne Edmondson
 description: > # this means to ignore newlines until "baseurl:"
   Colorado Coding Discoveries
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: 
-github_username:  AnneElizabeth
+twitter_username:
+github_username: AnneElizabeth
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
 
 gems: [jekyll-paginate, jekyll-feed]
