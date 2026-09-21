@@ -1,10 +1,15 @@
+---
+interface Props {
+  title: string;
+  capabilities: Array<string>;
+}
+
+const { title, capabilities } = Astro.props;
+---
+
 <article>
-  <h3>Technical Communication</h3>
+  <h3>{title}</h3>
   <ul>
-    <li>Audience analysis</li>
-    <li>Content strategy</li>
-    <li>Information architecture</li>
-    <li>Technical writing and editing</li>
-    <li>Accessibility and usability</li>
+    {capabilities.map((capability) => <li>{capability}</li>)}
   </ul>
 </article>

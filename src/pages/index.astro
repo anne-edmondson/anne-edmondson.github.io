@@ -1,5 +1,31 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import CapabilityCard from "../components/CapabilityCard.astro";
+
+const technicalCommunication = [
+  "Technical writing and editing",
+  "Audience analysis",
+  "Content strategy",
+  "Information architecture",
+  "Accessibility and usability",
+];
+
+const businessAnalysis = [
+  "Requirements elicitation and documentation",
+  "Process improvement",
+  "Stakeholder collaboration",
+  "User stories and acceptance criteria",
+  "Agile and AI-empowered SAFe practices",
+];
+
+const technicalFluency = [
+  "Front-end web development",
+  "Agentic and generative AI Python programming",
+  "CMS content migration, documentation, and stakeholder training",
+  "Knowledge base creation and maintenance",
+  "Markdown",
+  "Docs-as-code",
+];
 ---
 
 <Layout>
@@ -21,6 +47,18 @@ import Layout from "../layouts/Layout.astro";
 
     <section>
       <h2>Core Capabilities</h2>
+      <CapabilityCard
+        title="Technical Communication"
+        capabilities={technicalCommunication}
+      />
+      <CapabilityCard
+        title="Business Analysis"
+        capabilities={businessAnalysis}
+      />
+      <CapabilityCard
+        title="Technical Fluency"
+        capabilities={technicalFluency}
+      />
     </section>
 
     <section id="work">
