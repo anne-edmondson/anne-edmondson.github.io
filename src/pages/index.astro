@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import CapabilityCard from "../components/CapabilityCard.astro";
+import ProjectCard from "../components/ProjectCard.astro";
 
 const technicalCommunication = [
   "Technical writing and editing",
@@ -25,6 +26,23 @@ const technicalFluency = [
   "Knowledge base creation and maintenance",
   "Markdown",
   "Docs-as-code",
+];
+
+const projects = [
+  {
+    title: "GLP-1 Medication Guide",
+    description:
+      "A plain-language guide designed to help adults understand GLP-1 medications and make informed decisions.",
+    thumbnail: "/images/glp1-guide.png",
+    link: "/work/glp1-guide",
+  },
+  {
+    title: "Prompt Engineering for Non-Developers",
+    description:
+      "Non-technical, instructional guide for getting better responses from Generative AI platforms.",
+    thumbnail: "/images/prompt-guide.png",
+    link: "/work/prompt-guide",
+  },
 ];
 ---
 
@@ -63,6 +81,16 @@ const technicalFluency = [
 
     <section id="work">
       <h2>Selected Work</h2>
+      {
+        projects.map((project) => (
+          <ProjectCard
+            title={project.title}
+            description={project.description}
+            thumbnail={project.thumbnail}
+            link={project.link}
+          />
+        ))
+      }
     </section>
 
     <section>
