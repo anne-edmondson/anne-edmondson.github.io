@@ -81,16 +81,18 @@ const projects = [
 
     <section id="work">
       <h2>Selected Work</h2>
-      {
-        projects.map((project) => (
-          <ProjectCard
-            title={project.title}
-            description={project.description}
-            thumbnail={project.thumbnail}
-            link={project.link}
-          />
-        ))
-      }
+      <div class="project-grid">
+        {
+          projects.map((project) => (
+            <ProjectCard
+              title={project.title}
+              description={project.description}
+              thumbnail={project.thumbnail}
+              link={project.link}
+            />
+          ))
+        }
+      </div>
     </section>
 
     <section>
