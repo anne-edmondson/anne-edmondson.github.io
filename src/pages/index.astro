@@ -1,49 +1,18 @@
 ---
+//LAYOUT
 import Layout from "../layouts/Layout.astro";
+
+//COMPONENTS
 import CapabilityCard from "../components/CapabilityCard.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 
-const technicalCommunication = [
-  "Technical writing and editing",
-  "Audience analysis",
-  "Content strategy",
-  "Information architecture",
-  "Accessibility and usability",
-];
-
-const businessAnalysis = [
-  "Requirements elicitation and documentation",
-  "Process improvement",
-  "Stakeholder collaboration",
-  "User stories and acceptance criteria",
-  "Agile and AI-empowered SAFe practices",
-];
-
-const technicalFluency = [
-  "Front-end web development",
-  "Agentic and generative AI Python programming",
-  "CMS content migration, documentation, and stakeholder training",
-  "Knowledge base creation and maintenance",
-  "Markdown",
-  "Docs-as-code",
-];
-
-const projects = [
-  {
-    title: "GLP-1 Medication Guide",
-    description:
-      "A plain-language guide designed to help adults understand GLP-1 medications and make informed decisions.",
-    thumbnail: "/images/glp1-guide.png",
-    link: "/work/glp1-guide",
-  },
-  {
-    title: "Prompt Engineering for Non-Developers",
-    description:
-      "Non-technical, instructional guide for getting better responses from Generative AI platforms.",
-    thumbnail: "/images/prompt-guide.png",
-    link: "/work/prompt-guide",
-  },
-];
+//DATA
+import {
+  technicalCommunication,
+  businessAnalysis,
+  technicalFluency,
+} from "../data/capabilities";
+import { projects } from "../data/projects";
 ---
 
 <Layout>
