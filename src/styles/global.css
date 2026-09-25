@@ -6,6 +6,9 @@
     height: 100%;
   }
 
+body {
+    font-family: Arial, sans-serif;
+}
 /* centers main content horizontally */
   main {
     max-width: 1200px;
@@ -13,11 +16,49 @@
     padding: 0 2rem;
 }
 
+/*TYPOGRAPHY*/
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  /* makes each line box 1.6 times the element's current font size */
+  /* Lack of unit lets descendants calculate line height based on own font size */
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+/*LAYOUT*/
 .project-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
+
+/*COMPONENTS*/
+.project-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
 
 /* RESPONSIVE STYLES */
 
