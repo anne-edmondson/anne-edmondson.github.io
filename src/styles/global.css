@@ -107,6 +107,15 @@ section {
   gap: 2rem;
 }
 
+.about {
+  max-width: 750px;
+}
+
+.about p {
+  color: var(--color-muted);
+  font-size: 1.1rem;
+}
+
 /*COMPONENTS*/
 .project-card {
   border: 1px solid var(--color-border);
@@ -147,6 +156,13 @@ section {
 .text-link {
   text-decoration-thickness: 2px;
   text-underline-offset: 0.25rem;
+}
+
+footer {
+  padding: 2rem 0;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.9rem;
 }
 
 /* RESPONSIVE STYLES */

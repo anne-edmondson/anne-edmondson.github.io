@@ -1,0 +1,26 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { projects } from "../../data/projects";
+
+const project = projects.find(
+  (project) => project.link === "/work/prompt-guide",
+);
+
+if (!project) {
+  throw new Error("Project not found");
+}
+---
+
+<Layout>
+  <main>
+    <article class="project-page">
+      <a href="/">← Back to portfolio</a>
+
+      <h1>{project.title}</h1>
+
+      <p class="project-intro">
+        {project.description}
+      </p>
+    </article>
+  </main>
+</Layout>
