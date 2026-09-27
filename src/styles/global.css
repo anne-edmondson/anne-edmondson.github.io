@@ -116,6 +116,14 @@ section {
   font-size: 1.1rem;
 }
 
+.project-page {
+  max-width: 800px;
+}
+
+.project-header {
+  margin: 2rem 0 4rem;
+}
+
 /*COMPONENTS*/
 .project-card {
   border: 1px solid var(--color-border);
@@ -165,6 +173,23 @@ footer {
   font-size: 0.9rem;
 }
 
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.project-label {
+  color: var(--color-primary);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.project-intro {
+  font-size: 1.25rem;
+  color: var(--color-muted);
+  max-width: 700px;
+}
+
 /* RESPONSIVE STYLES */
 
 @media (max-width: 768px) {
@@ -181,9 +206,23 @@ footer {
 }
 
 @media (max-width: 768px) {
-.project-grid,
-.capability-grid,
-.how-i-work-grid {
-grid-template-columns: 1fr;
+  .project-grid,
+  .capability-grid,
+  .how-i-work-grid {
+  grid-template-columns: 1fr;
+  }
+
+    main {
+    padding: 2rem 1.25rem;
+  }
+
+  .hero {
+    padding: 2rem 0 1rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
   }
 }
