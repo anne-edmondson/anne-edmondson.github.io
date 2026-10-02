@@ -141,6 +141,27 @@ section {
   color: var(--color-muted);
 }
 
+/* Project cards */
+.project-card-image {
+  display: block;
+  width: 80%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  margin-inline: auto;
+  margin-bottom: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Individual project pages */
+.project-page-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin-inline: auto;
+  display: block;
+}
+
 .hero-actions {
   display: flex;
   align-items: center;

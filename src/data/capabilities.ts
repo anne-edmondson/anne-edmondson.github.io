@@ -1,24 +1,27 @@
 export const technicalCommunication = [
   "Technical writing and editing",
   "Audience analysis",
-  "Content strategy",
   "Information architecture",
-  "Accessibility and usability",
+  "Content strategy",
+  "Developer and user documentation",
+  "Training and knowledge resources",
+  "Content governance",
 ];
 
 export const businessAnalysis = [
-  "Requirements elicitation and documentation",
-  "Process improvement",
+  "AI-empowered SAFe Agilist",
   "Stakeholder collaboration",
+  "Requirements elicitation and documentation",
+  "Process mapping and improvement",
   "User stories and acceptance criteria",
-  "Agile and AI-empowered SAFe practices",
+  "UAT planning and testing",
 ];
 
 export const technicalFluency = [
-  "Front-end web development",
-  "Agentic and generative AI Python programming",
-  "CMS content migration, documentation, and stakeholder training",
-  "Knowledge base creation and maintenance",
-  "Markdown",
-  "Docs-as-code",
+  "HTML/CSS, JavaScript",
+  "React, Astro, Python",
+  "Git and Github, VS Code",
+  "Azure DevOps, Confluence",
+  "Generative and agentic AI tools and workflows",
+  "XML, Markdown",
 ];
