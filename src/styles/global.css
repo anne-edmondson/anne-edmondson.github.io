@@ -194,6 +194,37 @@ footer {
   font-size: 0.9rem;
 }
 
+.site-footer {
+  margin-top: 3rem;
+  padding: 1.5rem 0 2rem;
+  border-top: 1px solid var(--border-color);
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0 0 0.4rem;
+}
+
+.site-footer strong {
+  font-size: 1rem;
+}
+
+.site-footer a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-meta {
+  margin-top: 0.75rem;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
 .back-link {
   display: inline-block;
   margin-bottom: 1rem;

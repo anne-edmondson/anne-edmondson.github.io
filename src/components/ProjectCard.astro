@@ -10,8 +10,20 @@ const { title, description, thumbnail, link } = Astro.props;
 ---
 
 <article class="project-card">
-  <img class="project-card-image" src={thumbnail} alt={title} />
+  <!-- <img class="project-card-image" src={thumbnail} alt={title} /> -->
+  <a
+    href={link}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label={`View ${title} deliverable`}
+  >
+    <img class="project-card-image" src={thumbnail} alt="" />
+  </a>
   <h3>{title}</h3>
   <p>{description}</p>
-  <p><a href={link}>View Project</a></p>
+  <p>
+    <a href={link} target="_blank" rel="noopener noreferrer">
+      View Deliverable
+    </a>
+  </p>
 </article>
