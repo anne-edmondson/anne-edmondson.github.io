@@ -4,3 +4,4 @@ _site
 .astro/
 .vscode/
 dist/
+node_modules/
