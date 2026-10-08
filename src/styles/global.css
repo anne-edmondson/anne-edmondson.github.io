@@ -64,7 +64,7 @@ a:hover {
 /*LAYOUT*/
 .project-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -116,15 +116,9 @@ section {
   font-size: 1.1rem;
 }
 
-.project-page {
-  max-width: 800px;
-}
-
-.project-header {
-  margin: 2rem 0 4rem;
-}
-
 /*COMPONENTS*/
+
+/* Project cards */
 .project-card {
   border: 1px solid var(--color-border);
   padding: 1.75rem;
@@ -141,7 +135,6 @@ section {
   color: var(--color-muted);
 }
 
-/* Project cards */
 .project-card-image {
   display: block;
   width: 80%;
@@ -154,6 +147,14 @@ section {
 }
 
 /* Individual project pages */
+.project-page {
+  max-width: 800px;
+}
+
+.project-header {
+  margin: 2rem 0 3rem;
+}
+
 .project-page-image {
   width: 100%;
   max-width: 900px;
@@ -168,6 +169,13 @@ section {
   gap: 1.5rem;
 }
 
+.project-resources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
 .button {
   display: inline-block;
   padding: 0.75rem 1.25rem;
@@ -180,6 +188,17 @@ section {
 .button:hover {
   background-color: var(--color-primary-dark);
   color: white;
+}
+
+.button-secondary {
+  background-color: var(--color-surface);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.button-secondary:hover {
+  background-color: var(--color-surface-soft);
+  color: var(--color-primary-dark);
 }
 
 .text-link {
