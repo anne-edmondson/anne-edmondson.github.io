@@ -21,10 +21,10 @@ export const projects : Project[] = [
     link: "/work/prompt-guide",
   },
   {
-    title: "Create a LinkedIn Profile That Gets You Noticed",
+    title: "LinkedIn Profile Guide for Technical Writers",
     description:
-      "A practical guide for job-seeking technical writers who want to break through LinkedIn noise and get noticed.",
+      "Practical instructional guide designed to help new technical writers create a professional LinkedIn presence, showcase their skills and experience, and attract prospective employers.",
     thumbnail: "src/assets/linkedin_profile_tips.png",
-    link: "/files/ptw320_linkedin_profile_tips.pdf",
+    link: "/work/linkedin-tips",
   },
 ];
