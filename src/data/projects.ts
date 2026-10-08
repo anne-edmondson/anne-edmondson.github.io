@@ -18,7 +18,7 @@ export const projects : Project[] = [
     description:
       "Non-technical, instructional guide for users needing better responses from Generative AI platforms.",
     thumbnail: "src/assets/prompt-guide.png",
-    link: "/files/prompt_guide_final.pdf",
+    link: "/work/prompt-guide",
   },
   {
     title: "Create a LinkedIn Profile That Gets You Noticed",
