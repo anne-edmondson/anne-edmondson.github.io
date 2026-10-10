@@ -141,6 +141,19 @@ section {
   gap: 2rem;
 }
 
+.how-i-work-grid article {
+  display: flex;
+  flex-direction: column;
+}
+
+.how-i-work-grid h3 {
+  margin-bottom: 0.75rem;
+}
+
+.how-i-work-grid p {
+  margin-top: 0;
+}
+
 .about {
   max-width: 750px;
 }
