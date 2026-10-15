@@ -27,4 +27,4 @@ The site showcases work across technical communication, audience analysis, conte
 
 ## About Me
 
-I’m a technical communicator and business analyst with experience translating complex requirements, systems, and information into clear, useful content. My recent work also includes generative and agentic AI, documentation workflows, and front-end technologies.
+I'm a technical writer with a background in business analysis and front-end development, translating complex requirements, systems, and information into clear, useful content. My recent work also includes generative and agentic AI, documentation workflows, and front-end technologies.
